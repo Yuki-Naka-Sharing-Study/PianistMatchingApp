@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9B83F72E6F09CA838612610F /* Pods_PianistMatchingApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AA7EA79A49363C80406E63B /* Pods_PianistMatchingApp.framework */; };
+		D19515AD29F506F40037500A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D19515AC29F506F40037500A /* GoogleService-Info.plist */; };
+		D19515AF29F5093C0037500A /* CreateNewUserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D19515AE29F5093C0037500A /* CreateNewUserViewController.swift */; };
+		D19515B229F518010037500A /* Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = D19515B129F518010037500A /* Util.swift */; };
 		D1DFCCA929F495B100AAB1B0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1DFCCA829F495B100AAB1B0 /* AppDelegate.swift */; };
 		D1DFCCAB29F495B100AAB1B0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1DFCCAA29F495B100AAB1B0 /* SceneDelegate.swift */; };
 		D1DFCCAD29F495B100AAB1B0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1DFCCAC29F495B100AAB1B0 /* ViewController.swift */; };
@@ -16,6 +20,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6AA7EA79A49363C80406E63B /* Pods_PianistMatchingApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PianistMatchingApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9252378140F6DE6AE3E31B1D /* Pods-PianistMatchingApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PianistMatchingApp.debug.xcconfig"; path = "Target Support Files/Pods-PianistMatchingApp/Pods-PianistMatchingApp.debug.xcconfig"; sourceTree = "<group>"; };
+		B4659DB733F178629CA23E58 /* Pods-PianistMatchingApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PianistMatchingApp.release.xcconfig"; path = "Target Support Files/Pods-PianistMatchingApp/Pods-PianistMatchingApp.release.xcconfig"; sourceTree = "<group>"; };
+		D19515AC29F506F40037500A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		D19515AE29F5093C0037500A /* CreateNewUserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateNewUserViewController.swift; sourceTree = "<group>"; };
+		D19515B129F518010037500A /* Util.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Util.swift; sourceTree = "<group>"; };
 		D1DFCCA529F495B100AAB1B0 /* PianistMatchingApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PianistMatchingApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1DFCCA829F495B100AAB1B0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D1DFCCAA29F495B100AAB1B0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -31,17 +41,54 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B83F72E6F09CA838612610F /* Pods_PianistMatchingApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		67DCC64CD1AC04AC07567B93 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9252378140F6DE6AE3E31B1D /* Pods-PianistMatchingApp.debug.xcconfig */,
+				B4659DB733F178629CA23E58 /* Pods-PianistMatchingApp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D19515AA29F504800037500A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D1DFCCAC29F495B100AAB1B0 /* ViewController.swift */,
+				D19515AE29F5093C0037500A /* CreateNewUserViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		D19515AB29F504B70037500A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D1DFCCAE29F495B100AAB1B0 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D19515B029F5178A0037500A /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				D19515B129F518010037500A /* Util.swift */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
 		D1DFCC9C29F495B100AAB1B0 = {
 			isa = PBXGroup;
 			children = (
 				D1DFCCA729F495B100AAB1B0 /* PianistMatchingApp */,
 				D1DFCCA629F495B100AAB1B0 /* Products */,
+				67DCC64CD1AC04AC07567B93 /* Pods */,
+				DFF78F5D0B00B81478076C5D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +103,25 @@
 		D1DFCCA729F495B100AAB1B0 /* PianistMatchingApp */ = {
 			isa = PBXGroup;
 			children = (
+				D19515B029F5178A0037500A /* Util */,
 				D1DFCCA829F495B100AAB1B0 /* AppDelegate.swift */,
 				D1DFCCAA29F495B100AAB1B0 /* SceneDelegate.swift */,
-				D1DFCCAC29F495B100AAB1B0 /* ViewController.swift */,
-				D1DFCCAE29F495B100AAB1B0 /* Main.storyboard */,
+				D19515AA29F504800037500A /* Controller */,
+				D19515AB29F504B70037500A /* View */,
 				D1DFCCB129F495B200AAB1B0 /* Assets.xcassets */,
 				D1DFCCB329F495B200AAB1B0 /* LaunchScreen.storyboard */,
 				D1DFCCB629F495B200AAB1B0 /* Info.plist */,
+				D19515AC29F506F40037500A /* GoogleService-Info.plist */,
 			);
 			path = PianistMatchingApp;
+			sourceTree = "<group>";
+		};
+		DFF78F5D0B00B81478076C5D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6AA7EA79A49363C80406E63B /* Pods_PianistMatchingApp.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +131,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D1DFCCB929F495B200AAB1B0 /* Build configuration list for PBXNativeTarget "PianistMatchingApp" */;
 			buildPhases = (
+				BC5228AC78A9C22908AE7068 /* [CP] Check Pods Manifest.lock */,
 				D1DFCCA129F495B100AAB1B0 /* Sources */,
 				D1DFCCA229F495B100AAB1B0 /* Frameworks */,
 				D1DFCCA329F495B100AAB1B0 /* Resources */,
+				420498796C7B3CBD898A8BD6 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -128,17 +187,62 @@
 				D1DFCCB529F495B200AAB1B0 /* LaunchScreen.storyboard in Resources */,
 				D1DFCCB229F495B200AAB1B0 /* Assets.xcassets in Resources */,
 				D1DFCCB029F495B100AAB1B0 /* Main.storyboard in Resources */,
+				D19515AD29F506F40037500A /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		420498796C7B3CBD898A8BD6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PianistMatchingApp/Pods-PianistMatchingApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PianistMatchingApp/Pods-PianistMatchingApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PianistMatchingApp/Pods-PianistMatchingApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BC5228AC78A9C22908AE7068 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PianistMatchingApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		D1DFCCA129F495B100AAB1B0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D19515AF29F5093C0037500A /* CreateNewUserViewController.swift in Sources */,
 				D1DFCCAD29F495B100AAB1B0 /* ViewController.swift in Sources */,
+				D19515B229F518010037500A /* Util.swift in Sources */,
 				D1DFCCA929F495B100AAB1B0 /* AppDelegate.swift in Sources */,
 				D1DFCCAB29F495B100AAB1B0 /* SceneDelegate.swift in Sources */,
 			);
@@ -282,6 +386,7 @@
 		};
 		D1DFCCBA29F495B200AAB1B0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9252378140F6DE6AE3E31B1D /* Pods-PianistMatchingApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -310,6 +415,7 @@
 		};
 		D1DFCCBB29F495B200AAB1B0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B4659DB733F178629CA23E58 /* Pods-PianistMatchingApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
