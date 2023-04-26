@@ -16,6 +16,16 @@
 		D19515B929F550ED0037500A /* UserDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D19515B829F550ED0037500A /* UserDataModel.swift */; };
 		D19515BB29F556B80037500A /* SendDBModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D19515BA29F556B80037500A /* SendDBModel.swift */; };
 		D19515BD29F66F870037500A /* heart.json in Resources */ = {isa = PBXBuildFile; fileRef = D19515BC29F66F870037500A /* heart.json */; };
+		D19515BF29F786950037500A /* KeyChainConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = D19515BE29F786950037500A /* KeyChainConfig.swift */; };
+		D19515C129F78AC50037500A /* HumansfViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D19515C029F78AC50037500A /* HumansfViewController.swift */; };
+		D19515C329F7942A0037500A /* LoadDBModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D19515C229F7942A0037500A /* LoadDBModel.swift */; };
+		D19515C529F7A9BF0037500A /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D19515C429F7A9BF0037500A /* ProfileViewController.swift */; };
+		D19515C829F8DA0B0037500A /* ProfileImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D19515C629F8DA0B0037500A /* ProfileImageCell.swift */; };
+		D19515C929F8DA0B0037500A /* ProfileImageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D19515C729F8DA0B0037500A /* ProfileImageCell.xib */; };
+		D19515CC29F8EA840037500A /* ProfileTextCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D19515CA29F8EA840037500A /* ProfileTextCell.swift */; };
+		D19515CD29F8EA840037500A /* ProfileTextCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D19515CB29F8EA840037500A /* ProfileTextCell.xib */; };
+		D19515D029F8ECF80037500A /* ProfileDetailCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D19515CE29F8ECF80037500A /* ProfileDetailCell.swift */; };
+		D19515D129F8ECF80037500A /* ProfileDetailCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D19515CF29F8ECF80037500A /* ProfileDetailCell.xib */; };
 		D1DFCCA929F495B100AAB1B0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1DFCCA829F495B100AAB1B0 /* AppDelegate.swift */; };
 		D1DFCCAB29F495B100AAB1B0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1DFCCAA29F495B100AAB1B0 /* SceneDelegate.swift */; };
 		D1DFCCAD29F495B100AAB1B0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1DFCCAC29F495B100AAB1B0 /* ViewController.swift */; };
@@ -36,6 +46,16 @@
 		D19515B829F550ED0037500A /* UserDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDataModel.swift; sourceTree = "<group>"; };
 		D19515BA29F556B80037500A /* SendDBModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendDBModel.swift; sourceTree = "<group>"; };
 		D19515BC29F66F870037500A /* heart.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = heart.json; sourceTree = "<group>"; };
+		D19515BE29F786950037500A /* KeyChainConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyChainConfig.swift; sourceTree = "<group>"; };
+		D19515C029F78AC50037500A /* HumansfViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HumansfViewController.swift; sourceTree = "<group>"; };
+		D19515C229F7942A0037500A /* LoadDBModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadDBModel.swift; sourceTree = "<group>"; };
+		D19515C429F7A9BF0037500A /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		D19515C629F8DA0B0037500A /* ProfileImageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileImageCell.swift; sourceTree = "<group>"; };
+		D19515C729F8DA0B0037500A /* ProfileImageCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProfileImageCell.xib; sourceTree = "<group>"; };
+		D19515CA29F8EA840037500A /* ProfileTextCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileTextCell.swift; sourceTree = "<group>"; };
+		D19515CB29F8EA840037500A /* ProfileTextCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProfileTextCell.xib; sourceTree = "<group>"; };
+		D19515CE29F8ECF80037500A /* ProfileDetailCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileDetailCell.swift; sourceTree = "<group>"; };
+		D19515CF29F8ECF80037500A /* ProfileDetailCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProfileDetailCell.xib; sourceTree = "<group>"; };
 		D1DFCCA529F495B100AAB1B0 /* PianistMatchingApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PianistMatchingApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1DFCCA829F495B100AAB1B0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D1DFCCAA29F495B100AAB1B0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -73,6 +93,8 @@
 				D1DFCCAC29F495B100AAB1B0 /* ViewController.swift */,
 				D19515AE29F5093C0037500A /* CreateNewUserViewController.swift */,
 				D19515B329F549940037500A /* inputProfileTextController.swift */,
+				D19515C029F78AC50037500A /* HumansfViewController.swift */,
+				D19515C429F7A9BF0037500A /* ProfileViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -81,6 +103,12 @@
 			isa = PBXGroup;
 			children = (
 				D1DFCCAE29F495B100AAB1B0 /* Main.storyboard */,
+				D19515C629F8DA0B0037500A /* ProfileImageCell.swift */,
+				D19515C729F8DA0B0037500A /* ProfileImageCell.xib */,
+				D19515CA29F8EA840037500A /* ProfileTextCell.swift */,
+				D19515CB29F8EA840037500A /* ProfileTextCell.xib */,
+				D19515CE29F8ECF80037500A /* ProfileDetailCell.swift */,
+				D19515CF29F8ECF80037500A /* ProfileDetailCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -89,6 +117,7 @@
 			isa = PBXGroup;
 			children = (
 				D19515B129F518010037500A /* Util.swift */,
+				D19515BE29F786950037500A /* KeyChainConfig.swift */,
 			);
 			path = Util;
 			sourceTree = "<group>";
@@ -99,6 +128,7 @@
 				D19515B629F54D6E0037500A /* Manager.swift */,
 				D19515B829F550ED0037500A /* UserDataModel.swift */,
 				D19515BA29F556B80037500A /* SendDBModel.swift */,
+				D19515C229F7942A0037500A /* LoadDBModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -209,7 +239,10 @@
 			files = (
 				D1DFCCB529F495B200AAB1B0 /* LaunchScreen.storyboard in Resources */,
 				D1DFCCB229F495B200AAB1B0 /* Assets.xcassets in Resources */,
+				D19515D129F8ECF80037500A /* ProfileDetailCell.xib in Resources */,
+				D19515CD29F8EA840037500A /* ProfileTextCell.xib in Resources */,
 				D1DFCCB029F495B100AAB1B0 /* Main.storyboard in Resources */,
+				D19515C929F8DA0B0037500A /* ProfileImageCell.xib in Resources */,
 				D19515BD29F66F870037500A /* heart.json in Resources */,
 				D19515AD29F506F40037500A /* GoogleService-Info.plist in Resources */,
 			);
@@ -265,12 +298,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				D19515B929F550ED0037500A /* UserDataModel.swift in Sources */,
+				D19515BF29F786950037500A /* KeyChainConfig.swift in Sources */,
 				D19515AF29F5093C0037500A /* CreateNewUserViewController.swift in Sources */,
 				D1DFCCAD29F495B100AAB1B0 /* ViewController.swift in Sources */,
+				D19515CC29F8EA840037500A /* ProfileTextCell.swift in Sources */,
 				D19515B229F518010037500A /* Util.swift in Sources */,
+				D19515D029F8ECF80037500A /* ProfileDetailCell.swift in Sources */,
+				D19515C829F8DA0B0037500A /* ProfileImageCell.swift in Sources */,
 				D1DFCCA929F495B100AAB1B0 /* AppDelegate.swift in Sources */,
 				D19515B729F54D6E0037500A /* Manager.swift in Sources */,
+				D19515C329F7942A0037500A /* LoadDBModel.swift in Sources */,
 				D19515BB29F556B80037500A /* SendDBModel.swift in Sources */,
+				D19515C129F78AC50037500A /* HumansfViewController.swift in Sources */,
+				D19515C529F7A9BF0037500A /* ProfileViewController.swift in Sources */,
 				D19515B429F549940037500A /* inputProfileTextController.swift in Sources */,
 				D1DFCCAB29F495B100AAB1B0 /* SceneDelegate.swift in Sources */,
 			);
